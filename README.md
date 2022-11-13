@@ -43,9 +43,7 @@ $U$=Unemployment Rate;
 $C$=Crimes per 100000 persons;
 $A$=Accidents per 100,000 persons;
 $F$=Average Food Price;
-```math
-score = \frac{6I + 5\frac{Ig}{Ig_{max})} + 4(1-M) + 3(\frac{L}{100}) + 2(\frac{U}{100}) + (1-\frac{C}{C_{max}}) + (1-\frac{A}{A_{max}}) + (1-\frac{F}{F_{max}})}{23}
-```
+$$score = \frac{6I + 5\frac{Ig}{Ig_{max}} + 4(1-M) + 3\frac{L}{100} + 2\frac{U}{100} + (1-\frac{C}{C_{max}}) + (1-\frac{A}{A_{max}}) + (1-\frac{F}{F_{max}})}{23}$$
 
 ### Results
 
