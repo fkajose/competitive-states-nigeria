@@ -31,7 +31,6 @@ Due to inconsistent availability of data, the metrics used were not all from the
 
 ### Score Calculations
 
-```math
 I=IHDI
 Ig=IGR per Capita
 M=MPI
@@ -40,5 +39,6 @@ U=Unemployment Rate
 C=Crimes per 100000 persons
 A=Accidents per 100,000 persons
 F=Average Food Price
-score = (6I + 5(Ig/max(Ig)) + 4(1-M) + 3(L/100) + 2(U/100) + (1-C/max(C)) + (1-A/max(A)) + (1-F/max(F)))/23
+```math
+score = \frac{(6I + 5(Ig/max(Ig)) + 4(1-M) + 3(L/100) + 2(U/100) + (1-C/max(C)) + (1-A/max(A)) + (1-F/max(F)))}/{23}
 ```
