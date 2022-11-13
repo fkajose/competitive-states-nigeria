@@ -33,14 +33,14 @@ In defining my metrics, it was important to factor in economic activity, infrast
 
 A weighted score was created to help normalise the values and rank the countries on a scale of 0-1. 
 
-$I=IHDI$\n
-$Ig=IGR per Capita$
-M=MPI;\n
-L=Literacy Rate;
-U=Unemployment Rate;
-C=Crimes per 100000 persons;
-A=Accidents per 100,000 persons;
-F=Average Food Price;
+$I$=IHDI;
+$Ig$=IGR per Capita;
+$M$=MPI;
+$L$=Literacy Rate;
+$U$=Unemployment Rate;
+$C$=Crimes per 100000 persons;
+$A$=Accidents per 100,000 persons;
+$F$=Average Food Price;
 ```math
 score = \frac{6I + 5\frac{Ig}{max(Ig)} + 4(1-M) + 3(\frac{L}{100}) + 2(\frac{U}{100}) + (1-\frac{C}{max(C)}) + (1-\frac{A}{max(A)}) + (1-\frac{F}{max(F)})}{23}
 ```
