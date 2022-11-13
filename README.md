@@ -33,9 +33,9 @@ In defining my metrics, it was important to factor in economic activity, infrast
 
 A weighted score was created to help normalise the values and rank the countries on a scale of 0-1. 
 
-$I=IHDI$
+$I=IHDI$\n
 $Ig=IGR per Capita$
-M=MPI;
+M=MPI;\n
 L=Literacy Rate;
 U=Unemployment Rate;
 C=Crimes per 100000 persons;
