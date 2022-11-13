@@ -2,7 +2,7 @@
 
  Analysis of competitive states in Nigeria
 
-This project was conducted for an article on Our Red Eagle about the most competitive states in Nigeria besides Lagos. The data used was compiled from the Nigerian Bureau of Statistics (NBS)
+This project was conducted for an article on Our Red Eagle about the most competitive states in Nigeria besides Lagos. A competitive state is one that enables business environments, possesses resources and human capital, has good infrastructure, and is generally safe for business with a high consumer market. Competitive states are good at attracting investment and creating jobs that help reduce poverty and unemployment.
 
 ## Sources
 
@@ -16,7 +16,7 @@ This project was conducted for an article on Our Red Eagle about the most compet
 
 ## Methodology
 
-Due to inconsistent availability of data, the metrics used were not all from the same year. 
+In defining my metrics, it was important to factor in economic activity, infrastructure, and security. The table belows shows the metrics chosen and their weights. 
 
 |Metric|Description|Range|Weight|
 |-------------------|-------------------|:----------------:|----------------|
@@ -30,6 +30,8 @@ Due to inconsistent availability of data, the metrics used were not all from the
 |Crimes/100k persons|**Crimes per 100,000 persons.** A measure of how safe the state is, i.e., the number of reported crimes per 100,000 persons in state. Lower is better.|None|1|
 
 ### Score Calculations
+
+A weighted score was created to help normalise the values and rank the countries on a scale of 0-1. 
 
 I=IHDI;
 Ig=IGR per Capita;
