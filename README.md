@@ -18,20 +18,22 @@ This project was conducted for an article on Our Red Eagle about the most compet
 
 In defining my metrics, it was important to factor in economic activity, infrastructure, and security. The table belows shows the metrics chosen and their weights. 
 
-|Metric|Description|Range|Weight|
-|-------------------|-------------------|:----------------:|----------------|
-|IHDI|**Income-Adjusted Human Development Index.** A composite index to measure the quality of life, level of knowledge, and standard of living of a state while accounting for the inequalities within the state. The higher this metric the better.|0-1|6|
-|IGR per Capita | "**Internally Generated Revenue.** The internally generated revenues obtained within the state, majorly from taxes as reported by the National Bureau of Statistics. The higher this metric, the better."|0-1|5|
-|MPI|"**Multidimensional Poverty Index.** Measures the share of the population that is multi-dimensionally poor, adjusted by the intensity of deprivation. It accounts for inadequate amenities, health, nutrition, education, housing conditions, and a lack of job. Lower is better."|0-1|4|
-|Literacy|**Literacy rate.** The proportion of the adult population aged 15 years and over which is literate, expressed as a percentage of the corresponding population. Higher is better.|0-100|3|
-|Unemployment|"**Unemployment Rate.** The proportion of people (aged 15-64) who are looking for and are available for work, but are unable to secure a job. Lower is better."|0-100|2|
-|Avg Food Item Price|**Average Food Item Price.** The average price of selected food items in Naira as curated by the National Bureau of Statistics for the state in September 2022. Lower is better.|None|1|
-|Accidents/100k persons|**Accidents per 100,000 persons.** An indirect measure of infrastructure by accounting the number of recorded road traffic accidents per 100,000 persons in state. Lower is better.|None|1|
-|Crimes/100k persons|**Crimes per 100,000 persons.** A measure of how safe the state is, i.e., the number of reported crimes per 100,000 persons in state. Lower is better.|None|1|
+### Metrics Selection
 
-### Score Calculations
+ |Metric|Description|Range|Weight|
+ |-------------------|-------------------|:----------------:|----------------|
+ |IHDI|**Income-Adjusted Human Development Index.** A composite index to measure the quality of life, level of knowledge, and standard of living of a state while accounting for the inequalities within the state. The higher this metric the better.|0-1|6|
+ |IGR per Capita | "**Internally Generated Revenue.** The internally generated revenues obtained within the state, majorly from taxes as reported by the National Bureau of Statistics. The higher this metric, the better."|0-1|5|
+ |MPI|"**Multidimensional Poverty Index.** Measures the share of the population that is multi-dimensionally poor, adjusted by the intensity of deprivation. It accounts for inadequate amenities, health, nutrition, education, housing conditions, and a lack of job. Lower is better."|0-1|4|
+ |Literacy|**Literacy rate.** The proportion of the adult population aged 15 years and over which is literate, expressed as a percentage of the corresponding population. Higher is better.|0-100|3|
+ |Unemployment|"**Unemployment Rate.** The proportion of people (aged 15-64) who are looking for and are available for work, but are unable to secure a job. Lower is better."|0-100|2|
+ |Avg Food Item Price|**Average Food Item Price.** The average price of selected food items in Naira as curated by the National Bureau of Statistics for the state in September 2022. Lower is better.|None|1|
+ |Accidents/100k persons|**Accidents per 100,000 persons.** An indirect measure of infrastructure by accounting the number of recorded road traffic accidents per 100,000 persons in state. Lower is better.|None|1|
+ |Crimes/100k persons|**Crimes per 100,000 persons.** A measure of how safe the state is, i.e., the number of reported crimes per 100,000 persons in state. Lower is better.|None|1|
 
-A weighted score was created to help normalise the values and rank the countries on a scale of 0-1. 
+### Score Calculation
+
+A weighted score was created to help normalise the values and rank the states on a scale of 0-1. 
 
 $I$=IHDI;
 $Ig$=IGR per Capita;
@@ -44,3 +46,18 @@ $F$=Average Food Price;
 ```math
 score = \frac{6I + 5\frac{Ig}{Ig_{max})} + 4(1-M) + 3(\frac{L}{100}) + 2(\frac{U}{100}) + (1-\frac{C}{C_{max}}) + (1-\frac{A}{A_{max}}) + (1-\frac{F}{F_{max}})}{23}
 ```
+
+### Results
+
+Lagos was used as a benchmark upon which all other states were judged. Radar charts displaying key metrics helped accomplish this, with the top 10 states besides Lagos being:
+
+1. Federal Capital Territory (not a state)
+2. Ogun State
+3. Osun State
+4. Delta State
+5. Rivers State
+6. Ondo State
+7. Ekiti State
+8. Kwara State
+9. Enugu State
+10. Cross River State
