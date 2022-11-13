@@ -31,14 +31,14 @@ Due to inconsistent availability of data, the metrics used were not all from the
 
 ### Score Calculations
 
-I=IHDI
-Ig=IGR per Capita
-M=MPI
-L=Literacy Rate
-U=Unemployment Rate
-C=Crimes per 100000 persons
-A=Accidents per 100,000 persons
-F=Average Food Price
+I=IHDI;
+Ig=IGR per Capita;
+M=MPI;
+L=Literacy Rate;
+U=Unemployment Rate;
+C=Crimes per 100000 persons;
+A=Accidents per 100,000 persons;
+F=Average Food Price;
 ```math
-score = \frac{(6I + 5(Ig/max(Ig)) + 4(1-M) + 3(L/100) + 2(U/100) + (1-C/max(C)) + (1-A/max(A)) + (1-F/max(F)))}/{23}
+score = \frac{6I + 5\frac{Ig}{max(Ig)}) + 4(1-M) + 3(\frac{L}{100}) + 2(\frac{U}{100}) + (1-\frac{C}{max(C)}) + (1-\frac{A}{max(A)}) + (1-\frac{F}{max(F)})}{23}
 ```
