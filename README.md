@@ -6,13 +6,13 @@ This project was conducted for [an article](https://redeagleng.com/economy/lagos
 
 ## Sources
 
-1. [Computation of Human Development Indices for the UNDP Nigeria Human Development Report (2016)](/https://nigerianstat.gov.ng/elibrary/read/830/)
-2. [BudgIT's 2022 State of States](/https://yourbudgit.com/wp-content/uploads/2022/10/2022-State-of-States-Report.pdf/)
-3. [Selected Food Prices Watch (September 2022)](/https://nigerianstat.gov.ng/elibrary/read/1241247/)
-4. [Labor Force Statistics: Unemployment and Underemployment Report (Q4 2020)](/https://nigerianstat.gov.ng/elibrary/read/1238/)
-5. [Internally Generated Revenue At State Level (2019 - 2021)](/https://nigerianstat.gov.ng/elibrary/read/1241239/)
-6. [Crime Statistics: Reported Offences by Type and State (2017)](/https://nigerianstat.gov.ng/elibrary/read/786/)
-7. [Road Transport Data (Q3 & Q4 2021)](/https://nigerianstat.gov.ng/elibrary/read/1241145/)
+1. [Computation of Human Development Indices for the UNDP Nigeria Human Development Report (2016)](https://nigerianstat.gov.ng/elibrary/read/830/)
+2. [BudgIT's 2022 State of States](https://yourbudgit.com/wp-content/uploads/2022/10/2022-State-of-States-Report.pdf/)
+3. [Selected Food Prices Watch (September 2022)](https://nigerianstat.gov.ng/elibrary/read/1241247/)
+4. [Labor Force Statistics: Unemployment and Underemployment Report (Q4 2020)](https://nigerianstat.gov.ng/elibrary/read/1238/)
+5. [Internally Generated Revenue At State Level (2019 - 2021)](https://nigerianstat.gov.ng/elibrary/read/1241239/)
+6. [Crime Statistics: Reported Offences by Type and State (2017)](https://nigerianstat.gov.ng/elibrary/read/786/)
+7. [Road Transport Data (Q3 & Q4 2021)](https://nigerianstat.gov.ng/elibrary/read/1241145/)
 
 ## Methodology
 
