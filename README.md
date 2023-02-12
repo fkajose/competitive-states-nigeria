@@ -2,7 +2,7 @@
 
  Analysis of competitive states in Nigeria
 
-This project was conducted for an article on Our Red Eagle about the most competitive states in Nigeria besides Lagos. A competitive state is one that enables business environments, possesses resources and human capital, has good infrastructure, and is generally safe for business with a high consumer market. Competitive states are good at attracting investment and creating jobs that help reduce poverty and unemployment.
+This project was conducted for [an article](/https://redeagleng.com/economy/lagos-nigeria-states/) on [Our Red Eagle](/https://redeagleng.com/) about the most competitive states in Nigeria besides Lagos. A competitive state is one that enables business environments, possesses resources and human capital, has good infrastructure, and is generally safe for business with a high consumer market. Competitive states are good at attracting investment and creating jobs that help reduce poverty and unemployment.
 
 ## Sources
 
