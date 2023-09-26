@@ -16,7 +16,7 @@ This project was conducted for [an article](https://redeagleng.com/economy/lagos
 
 ## Methodology
 
-In defining my metrics, it was important to factor in economic activity, infrastructure, and security. The table belows shows the metrics chosen and their weights. 
+In defining my metrics, it was important to factor in economic activity, infrastructure, and security. The table below shows the metrics chosen and their weights. 
 
 ### Metrics Selection
 
